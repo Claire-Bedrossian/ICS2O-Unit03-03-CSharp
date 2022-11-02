@@ -18,7 +18,7 @@ class Program
         Console.Write("Enter the length of the radius (cm): ");
         radius = Convert.ToSingle(Console.ReadLine());
 
-        volume = (4.0/3.0) * Math.PI * Math.Pow(radius,3.00);
+        volume = (4.0 / 3.0) * Math.PI * Math.Pow(radius, 3.00);
 
         Console.WriteLine("");
         Console.WriteLine("The volume is: " + volume.ToString("0.000") + " cm³. ");
